@@ -1,0 +1,39 @@
+*{margin: 0;
+padding: 0;}
+
+.card{
+  display: inline-flex;
+  flex-direction: column;
+  height: 35vh;
+  width: 25 vw;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 5vh 5vw;
+  background-color: cyan;
+  border-radius: 10px;
+ 
+}
+.card:hover{
+  transform: scale(1.2);
+}
+
+button{
+  cursor:pointer;
+  width: 8vw;
+  height: 4vh;
+  border-radius: 5px;
+  box-shadow: 2px 3px red;
+}
+
+.heading{
+  display: inline-flex;
+  height: 15vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 300;
+  background-color: cadetblue;
+}
